@@ -12,6 +12,17 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+
+  # OS X: раскомментируйте эти строки.
+  # gem 'growl', '1.0.3'
+
+  # Linux: раскомментируйте эти строки.
+  # gem 'libnotify', '0.8.0'
+
+  # Windows: раскомментируйте эти строки.
+  # gem 'rb-notifu', '0.0.4'
+  # gem 'win32console', '1.3.2'
+  # gem 'wdm', '0.1.0'
 end
 
 gem 'sass-rails', '4.0.1'
